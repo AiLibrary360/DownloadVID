@@ -1,0 +1,4 @@
+conda create -n downloader python=3.10
+conda activate downloader
+pip install -r requirements.txt
+python your_app.py
