@@ -83,7 +83,7 @@ Tính năng này cho phép bạn chạy các mô hình ngôn ngữ lớn (LLM) n
     * **Sử dụng GPU:** **Tích vào ô này** nếu bạn có card đồ họa NVIDIA đủ mạnh.
 5.  Nhấn nút **"Tải Model"**. Quá trình này có thể mất một vài phút tùy thuộc vào tốc độ ổ cứng và dung lượng model.
 6.  Khi thanh trạng thái báo "Model ... đã sẵn sàng!", bạn đã có thể bắt đầu sử dụng các tính năng dịch thuật file hoặc chat với trợ lý ảo.
-
+Download Model LLM: https://huggingface.co/bartowski
 ---
 
 ## 🔑 Quản lý API Key
