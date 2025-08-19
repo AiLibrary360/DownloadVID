@@ -94,3 +94,8 @@ Một số tính năng online (Gemini, FPT.AI, AuSyncLab) yêu cầu bạn phả
 
 Cảm ơn bạn đã tin tưởng và sử dụng Ai360Hub!
 <img width="1277" height="830" alt="image" src="https://github.com/user-attachments/assets/311bfbd5-fadd-4147-9027-aeb8be44db44" />
+<img width="1276" height="827" alt="image" src="https://github.com/user-attachments/assets/a30f84b3-2faa-4cc7-b376-64ee32bad50a" />
+<img width="1277" height="830" alt="image" src="https://github.com/user-attachments/assets/9d1796b8-985f-4708-9767-021c4cf4b3f6" />
+
+
+
