@@ -129,18 +129,6 @@ Cảm ơn bạn đã tin tưởng và sử dụng Ai360Hub!
 
 ---
 
-##  Vì sao minh bạch lại quan trọng?
-- Xây dựng **độ tin cậy** với người dùng: không lo bị cài phần mềm độc hại.
-- Dễ dàng **debug hoặc xác nhận phiên bản** khi có sự cố.
-- Mở cửa cho **cộng đồng tham gia kiểm chứng**, nâng cao chất lượng.
-
----
-
-##  Gợi ý cải tiến trong tương lai
-- Thêm trường `sha256` vào `version.json` — để kiểm tra hash ngay trong app.
-- Sử dụng `releases` của GitHub để tạo bản phát hành chính thức (kèm tag, release notes).
-- (Tùy chỉnh) Thêm `downloads.md` để liệt kê lịch sử các bản phát hành nếu cần.
-
 ---
 
 ##  Lưu ý với user
