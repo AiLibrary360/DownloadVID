@@ -1,9 +1,10 @@
 {
   "version": "1.0.1",
   "download_url": "https://github.com/AiLibrary360/DownloadVID/releases/download/v1.0.1/update.zip",
-  "changelog": "- Thêm tính năng tự nhận thông báo khi có bản cập nhật.\n- Sửa lỗi ở tab Downloader.\n- Cải thiện giao diện tab Cài đặt chung."
+  "changelog": "- Thêm tính năng tự nhận thông báo khi có bản cập nhật.\n- Sửa lỗi ở tab Downloader.\n- Thêm tính năng TTS-Local không giới hạn."
 
 }
+
 
 
 
