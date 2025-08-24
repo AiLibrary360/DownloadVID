@@ -92,7 +92,7 @@ Nếu trong kết quả trả về có dòng CUDA = 1, bạn đã cài đặt th
 
 <br>
 
-(Cảm ơn các bạn <details>...</details>)
+
 ---
 
 ## ⚙️ Hướng dẫn Cấu hình Tính năng "Không Gian LLM"
