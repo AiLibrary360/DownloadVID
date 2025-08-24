@@ -40,7 +40,6 @@ Nếu bạn gặp lỗi (đặc biệt là lỗi `PermissionError` - Lỗi Quy�
 
 -------
 ## 🔧 Xử lý sự cố (Troubleshooting)
-<details>
 <summary><strong> Vấn đề: Ứng dụng bị văng (crash) khi nhấn "Bắt đầu Xử lý" trên card NVIDIA cấu hình cao (RTX 40/50 series).</strong></summary>
 
 Nguyên nhân
