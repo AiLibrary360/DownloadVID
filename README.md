@@ -41,7 +41,7 @@ Nếu bạn gặp lỗi (đặc biệt là lỗi `PermissionError` - Lỗi Quy�
 -------
 ## 🔧 Xử lý sự cố (Troubleshooting)
 <details>
-<summary><strong>👉 Vấn đề: Ứng dụng bị văng (crash) khi nhấn "Bắt đầu Xử lý" trên card NVIDIA cấu hình cao (RTX 40/50 series).</strong></summary>
+<summary><strong> Vấn đề: Ứng dụng bị văng (crash) khi nhấn "Bắt đầu Xử lý" trên card NVIDIA cấu hình cao (RTX 40/50 series).</strong></summary>
 
 Nguyên nhân
 Đây là hiện tượng không tương thích giữa thư viện llama-cpp-python được cài đặt mặc định (bản biên dịch sẵn) và kiến trúc phần cứng mới của các dòng card đồ họa cao cấp. Phiên bản mặc định không được tối ưu hóa cho các tính năng và bộ công cụ CUDA mới nhất, dẫn đến mất ổn định khi bắt đầu tác vụ tính toán nặng.
