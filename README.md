@@ -38,6 +38,62 @@ Nếu bạn gặp lỗi (đặc biệt là lỗi `PermissionError` - Lỗi Quy�
 
 Để hoàn toàn yên tâm, bạn có thể tự mình kiểm tra độ an toàn của file `Ai360Hub.exe` bằng cách tải nó lên trang web [VirusTotal.com](https://www.virustotal.com/). Đây là một dịch vụ uy tín của Google, sử dụng bộ máy của hơn 70 trình diệt virus khác nhau để phân tích file.
 
+-------
+## 🔧 Xử lý sự cố (Troubleshooting)
+<details>
+<summary><strong>👉 Vấn đề: Ứng dụng bị văng (crash) khi nhấn "Bắt đầu Xử lý" trên card NVIDIA cấu hình cao (RTX 40/50 series).</strong></summary>
+
+Nguyên nhân
+Đây là hiện tượng không tương thích giữa thư viện llama-cpp-python được cài đặt mặc định (bản biên dịch sẵn) và kiến trúc phần cứng mới của các dòng card đồ họa cao cấp. Phiên bản mặc định không được tối ưu hóa cho các tính năng và bộ công cụ CUDA mới nhất, dẫn đến mất ổn định khi bắt đầu tác vụ tính toán nặng.
+
+Giải pháp: Cài đặt lại llama-cpp-python từ mã nguồn ("May đo" lại thư viện)
+Quá trình này sẽ biên dịch lại thư viện ngay trên máy của bạn, liên kết trực tiếp với driver và bộ công cụ CUDA đã cài đặt, đảm bảo tương thích 100%.
+
+1. Chuẩn Bị Môi Trường
+
+Bạn cần cài đặt đầy đủ 2 công cụ sau:
+
+Visual Studio 2022 (Community Edition): Trong quá trình cài đặt, bắt buộc phải chọn workload "Desktop development with C++".
+
+NVIDIA CUDA Toolkit: Tải phiên bản mới nhất phù hợp với driver của bạn từ trang chủ NVIDIA CUDA Toolkit.
+
+2. Gỡ Bỏ Hoàn Toàn Phiên Bản Cũ
+
+Mở Command Prompt (cmd) hoặc PowerShell và chạy lệnh sau (chạy lặp lại cho đến khi nhận được thông báo "package not found"):
+
+Bash
+
+pip uninstall llama-cpp-python
+3. Cài Đặt "May Đo"
+
+Vẫn trong PowerShell hoặc cmd, chạy lần lượt các lệnh sau:
+
+PowerShell
+
+# Lệnh 1: Bật cờ biên dịch với CUDA
+set CMAKE_ARGS="-DLLAMA_CUDA=on"
+
+# Lệnh 2: Ép buộc sử dụng CMake để build
+set FORCE_CMAKE=1
+
+# Lệnh 3: Cài đặt lại từ mã nguồn, không dùng cache
+pip install llama-cpp-python --no-cache-dir --force-reinstall --upgrade
+Lưu ý: Quá trình này sẽ mất khoảng 5-15 phút vì nó đang biên dịch thư viện trên máy bạn.
+
+4. Kiểm Tra
+
+Sau khi hoàn tất, chạy lệnh sau:
+
+Bash
+
+python -m llama_cpp.llama_cpp
+Nếu trong kết quả trả về có dòng CUDA = 1, bạn đã cài đặt thành công! Ứng dụng sẽ hoạt động ổn định.
+
+</details>
+
+<br>
+
+(Bạn có thể thêm các lỗi thường gặp khác vào đây bằng cách sao chép cấu trúc <details>...</details>)
 ---
 
 ## ⚙️ Hướng dẫn Cấu hình Tính năng "Không Gian LLM"
