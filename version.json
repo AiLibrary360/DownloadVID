@@ -1,9 +1,10 @@
 {
   "version": "1.0.1",
   "download_url": "https://github.com/AiLibrary360/DownloadVID/releases/download/v1.0.1/update.zip",
-  "changelog": "- VUI LÒNG ĐỌC KỸ HƯỚNG DẪN UPDATE.\n- BẢN UPDATE HIỆN TẠI - PHIÊN BẢN GPU.\n- Thêm tính năng TTS-Local không giới hạn."
+  "changelog": "- VUI LÒNG ĐỌC KỸ HƯỚNG DẪN UPDATE.\n- BẢN UPDATE HIỆN TẠI - Fix lỗi audio TTS LOCAL.\n- --------."
 
 }
+
 
 
 
