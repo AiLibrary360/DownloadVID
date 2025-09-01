@@ -55,41 +55,6 @@ Nếu trong kết quả trả về có dòng CUDA = 1, bạn đã cài đặt th
 <br>
 ---
 
-## ⚠️ Lưu ý Quan trọng về Cảnh báo Bảo mật (Antivirus & Windows Defender)
-
-Chúng tôi cam kết ứng dụng Ai360Hub **HOÀN TOÀN SẠCH VÀ AN TOÀN**. Ứng dụng không chứa virus, mã độc, phần mềm gián điệp hay bất kỳ thành phần nào gây hại cho máy tính của bạn.
-
-Tuy nhiên, một số phần mềm diệt virus hoặc tính năng Windows Defender có thể hiển thị cảnh báo "hiểu lầm" (cảnh báo giả - false positive) khi bạn tải về hoặc sử dụng một số tính năng.
-
-### Tại sao lại có cảnh báo này?
-
-1.  **Ứng dụng Mới:** Ai360Hub là một dự án mới và chưa được các hãng phần mềm bảo mật lớn đưa vào "danh sách trắng" (whitelist) của họ.
-2.  **Đóng gói bằng Python:** Ứng dụng được viết bằng ngôn ngữ Python và đóng gói thành file `.exe`. Một số phần mềm bảo mật có xu hướng "nghi ngờ" các file được tạo ra theo cách này vì kỹ thuật tương tự cũng bị các phần mềm độc hại lạm dụng.
-3.  **Hành vi Ghi File Tạm:** Một số tính năng như Text-to-Speech (TTS) cần tạo và ghi các file âm thanh tạm thời vào thư mục Temp của hệ thống. Tính năng chống mã độc tống tiền (anti-ransomware) của Windows hoặc các AV khác có thể coi đây là hành vi đáng ngờ và chủ động chặn lại.
-
-### ✅ Cách xử lý khi gặp cảnh báo
-
-Nếu bạn gặp lỗi (đặc biệt là lỗi `PermissionError` - Lỗi Quyền Truy Cập) hoặc cảnh báo từ phần mềm bảo mật, đây là cách giải quyết an toàn và hiệu quả nhất:
-
-**Giải pháp 1: Thêm Ai360Hub vào Danh sách Ngoại lệ (Exclusion/Whitelist)**
-
-Đây là cách làm được khuyến nghị. Bằng cách này, bạn cho phép phần mềm bảo mật "tin tưởng" Ai360Hub và bỏ qua việc quét nó.
-
-> **Đối với Windows Defender (Controlled Folder Access):**
-> 1.  Mở **Windows Security**.
-> 2.  Đi tới **Virus & threat protection**.
-> 3.  Dưới mục "Ransomware protection", chọn **Manage ransomware protection**.
-> 4.  Chọn **Allow an app through Controlled folder access**.
-> 5.  Nhấn **Add an allowed app** -> **Browse all apps** và trỏ đến file `Ai360Hub.exe` của bạn.
-
-> **Đối với các phần mềm Antivirus khác (Kaspersky, Bitdefender, ESET...):**
-> Vui lòng tìm mục "Settings" -> "Exclusions" (hoặc "Whitelist", "Exceptions") và thêm file `Ai360Hub.exe` hoặc toàn bộ thư mục cài đặt Ai360Hub vào danh sách này.
-
-**Giải pháp 2: Quét file trên VirusTotal để kiểm chứng**
-
-Để hoàn toàn yên tâm, bạn có thể tự mình kiểm tra độ an toàn của file `Ai360Hub.exe` bằng cách tải nó lên trang web [VirusTotal.com](https://www.virustotal.com/). Đây là một dịch vụ uy tín của Google, sử dụng bộ máy của hơn 70 trình diệt virus khác nhau để phân tích file.
-
----
 
 ## ⚙️ Hướng dẫn Cấu hình Tính năng "Không Gian LLM"
 
