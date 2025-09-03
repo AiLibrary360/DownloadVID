@@ -10,36 +10,7 @@
 
 ## ⚙️ Hướng dẫn Cấu hình Tính năng "Không Gian LLM"
 
-Tính năng này cho phép bạn chạy các mô hình ngôn ngữ lớn (LLM) ngay trên máy tính của mình. Để sử dụng, bạn cần chuẩn bị và cấu hình một vài thứ.
 
-### 1. Yêu cầu cần thiết
-
-* **Phần cứng:**
-    * **RAM:** Tối thiểu 16GB RAM để chạy các mô hình 7B-8B. Càng nhiều RAM, bạn càng chạy được các mô hình lớn hơn.
-    * **GPU (Khuyến nghị):** Card đồ họa NVIDIA (GTX 16xx / RTX 20xx trở lên) với ít nhất 6GB VRAM. Việc chạy bằng GPU sẽ nhanh hơn rất nhiều so với CPU.
-* **Phần mềm:**
-    * **Driver NVIDIA:** Nếu dùng GPU, hãy đảm bảo bạn đã cài đặt driver mới nhất từ trang chủ của NVIDIA.
-    * **Microsoft Visual C++ Redistributable:** Tải và cài đặt phiên bản mới nhất (thường là 2015-2022) từ trang chủ của Microsoft.
-
-### 2. Các bước Cài đặt
-
-**Bước 1: Tải về một Model GGUF**
-
-* Mô hình cần có định dạng `.gguf`. Đây là định dạng file được tối ưu để chạy trên phần cứng người dùng.
-* Bạn có thể tìm và tải các mô hình này từ trang web **Hugging Face**.
-* **Gợi ý model tốt để bắt đầu:** Tìm kiếm "Llama-3-8B-Instruct-GGUF" trên Hugging Face và tải về một phiên bản lượng tử hóa (quantized), ví dụ như phiên bản `Q4_K_M`.
-
-**Bước 2: Đặt Model vào đúng thư mục**
-
-* Sau khi tải về, hãy sao chép file `.gguf` vào thư mục có tên là `models`.
-* Thư mục `models` này phải nằm **ngay bên cạnh file `Ai360Hub.exe`** của bạn.
-
-    ```
-    Thư mục cài đặt Ai360Hub/
-    ├── Ai360Hub.exe
-    └── models/
-        └── Llama-3-8B-Instruct-Q4_K_M.gguf  <-- Đặt file model của bạn ở đây
-    ```
 
 **Bước 3: Sử dụng trong Ứng dụng**
 
