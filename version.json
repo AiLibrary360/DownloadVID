@@ -1,9 +1,10 @@
 {
   "version": "1.0.4",
   "download_url": "https://github.com/AiLibrary360/DownloadVID/releases/download/v1.0.1/update.zip",
-  "changelog": "- VUI LÒNG ĐỌC KỸ HƯỚNG DẪN UPDATE.\n- BẢN UPDATE HIỆN TẠI - TTS-Local thêm Ngôn Ngữ En.\n- Tối ưu tốc độ TTS."
+  "changelog": "- Do user chỉ lấy link/mã mà không theo dõi nội dung.\n- Ứng dụng ngừng public free, chỉ cung cấp nội bộ."
 
 }
+
 
 
 
