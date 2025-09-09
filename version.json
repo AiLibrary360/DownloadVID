@@ -1,9 +1,10 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.6",
   "download_url": "https://github.com/AiLibrary360/DownloadVID/releases/download/v1.0.1/update.zip",
-  "changelog": "- Do user chỉ lấy link/mã mà không theo dõi nội dung.\n- Ứng dụng ngừng public free, chỉ cung cấp nội bộ."
+  "changelog": "- Bản cập nhật chuẩn bị cho tính năng Video Editor.\n- Fix lỗi download Douyin."
 
 }
+
 
 
 
