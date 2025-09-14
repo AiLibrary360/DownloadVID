@@ -1,9 +1,10 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "download_url": "https://github.com/AiLibrary360/DownloadVID/releases/download/v1.0.1/update.zip",
-  "changelog": "- Bản cập nhật chuẩn bị cho tính năng Video Editor.\n- Fix lỗi download Douyin."
+  "changelog": "- Bản cập nhật chuẩn bị cho tính năng Video Editor - Tạo SRT.\n- Fix TTS-Local - Fix AuSyncLab."
 
 }
+
 
 
 
