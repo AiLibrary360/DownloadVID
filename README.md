@@ -1,8 +1,11 @@
 ##### TÍCH HỢP TÍNH NĂNG MỚI - DỰ KIẾN SẮP TỚI - AI360HUB_CUT - VIDEO EDITOR
 
-<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/e5203f60-5f9f-47b6-9a1e-c5ed1dd05cd3" />
+<img width="1393" height="849" alt="image" src="https://github.com/user-attachments/assets/a856ea69-0e73-438f-812f-f85ee8771e12" />
+<img width="1398" height="847" alt="image" src="https://github.com/user-attachments/assets/45aa03de-b6ec-40bf-9ad7-e6ce7498e720" />
+<img width="1912" height="1015" alt="image" src="https://github.com/user-attachments/assets/361c2e17-d807-4768-aca5-02798f50aab4" />
 
-<img width="1387" height="849" alt="image" src="https://github.com/user-attachments/assets/974de684-26d1-4d57-92bc-d725a89a1596" />
+
+
 
 
 
