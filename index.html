@@ -5,38 +5,102 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ai360Hub</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <meta name="description" content="Ai360Hub - Bộ công cụ AI toàn diện giúp tăng hiệu suất, tối ưu hóa ý tưởng và quy trình làm việc.">
+  <meta property="og:title" content="Ai360Hub">
+  <meta property="og:description" content="Bộ công cụ AI toàn diện cho công việc của bạn.">
+  <meta property="og:image" content="assets/preview.png">
 </head>
 <body>
   <!-- Navbar -->
   <header class="navbar">
     <div class="logo">
-  <img src="assets/logo.png" alt="Ai360Hub Logo">
-  <span>Ai360Hub</span>
-</div>
-
+      <img src="assets/logo.png" alt="Ai360Hub Logo">
+      <span>Ai360Hub</span>
+    </div>
     <nav>
       <ul>
         <li><a href="#">Dùng Thử</a></li>
-        <li><a href="#">Giới thiệu</a></li>
-        <li><a href="#">Tin tức</a></li>
-        <li><a href="#">Hỗ trợ</a></li>
+        <li><a href="about.html" target="_blank">Giới thiệu</a></li>
+        <li><a href="news.html" target="_blank">Tin tức</a></li>
+        <li><a href="support.html" target="_blank">Hỗ trợ</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <main class="hero">
     <div class="hero-images">
-      <img src="assets/hero-1.jpg" alt="teamwork" class="fade-in delay1">
-      <img src="assets/hero-2.jpg" alt="ai-dashboard" class="fade-in delay2">
-      <img src="assets/hero-3.jpg" alt="app-preview" class="fade-in delay3">
-      <img src="assets/hero-4.jpg" alt="app-preview" class="fade-in delay3">
+      <!-- Card 1 -->
+      <div class="card-3d">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/hero-1.jpg" alt="Ảnh demo 1">
+          </div>
+          <div class="card-back">
+            <h3>Thư viện Media</h3>
+            <p>Quản lý, lưu trữ và truy xuất dữ liệu thông minh.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card-3d">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/hero-2.jpg" alt="Ảnh demo 2">
+          </div>
+          <div class="card-back">
+            <h3>Trình chỉnh sửa</h3>
+            <p>Công cụ chỉnh sửa mạnh mẽ với AI hỗ trợ.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card-3d">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/hero-3.jpg" alt="Ảnh demo 3">
+          </div>
+          <div class="card-back">
+            <h3>Dashboard thông minh</h3>
+            <p>Theo dõi và tối ưu hiệu suất làm việc.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="card-3d">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="assets/hero-4.jpg" alt="Ảnh demo 4">
+          </div>
+          <div class="card-back">
+            <h3>Tích hợp LLM</h3>
+            <p>Ứng dụng LLM vào mọi khâu xử lý của bạn.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="hero-content fade-in delay4">
+
+    <div class="hero-content">
       <h1>Ai360HUB</h1>
       <p>Tăng hiệu suất với bộ công cụ AI toàn diện, tối ưu hóa mọi ý tưởng và quy trình cho công việc của bạn.</p>
       <a href="https://github.com/AiLibrary360/DownloadVID/releases/download/v1.0.1/update.zip" class="btn-download">Download</a>
     </div>
-  </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Ai360Hub. All rights reserved.</p>
+    <div class="footer-socials">
+      <!-- Facebook -->
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2v-3h2v-2c0-2 1.2-3.1 3-3.1 .9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2v1.8h2.6l-.4 3h-2.2v7A10 10 0 0 0 22 12"/></svg></a>
+      <!-- GitHub -->
+      <a href="#"><svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.6v-2.1c-3.4.7-4.2-1.6-4.2-1.6-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 2.1-.6 2.6-1.1-.7-.1-1.3-.2-1.8-.5-1.3-.7-.6-2.2-.6-2.2.7-.2 1.3-.1 2 .5.5-.1 1.1-.3 1.6-.6-.1-.7.2-1.5.7-2.1-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.3 1.2-3.2-.2-.3-.6-1.6.1-3.3 0 0 1-.3 3.3 1.2a11.2 11.2 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.3 3 .1 3.3.7.9 1.2 1.9 1.2 3.2 0 4.7-2.8 5.7-5.5 6 .6.6.9 1.4.9 2.3v3.5c0 .4.2.7.8.6A12 12 0 0 0 12 .3"/></svg></a>
+      <!-- Email -->
+      <a href="mailto:contact@ai360hub.com"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8l8 5 8-5v10H4z"/></svg></a>
+      <!-- Phone -->
+      <a href="tel:+84123456789"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.1 2.3 3 4.2 5.3 5.3l1.8-1.8c.3-.3.8-.4 1.2-.3 1 .3 2 .5 3 .5.7 0 1.2.5 1.2 1.2V20c0 .7-.5 1.2-1.2 1.2C9.4 21.2 2.8 14.6 2.8 6.4 2.8 5.7 3.3 5.2 4 5.2h3.2c.7 0 1.2.5 1.2 1.2 0 1 .2 2 .5 3 .1.4 0 .9-.3 1.2l-1.8 1.8z"/></svg></a>
+    </div>
+  </footer>
 </body>
 </html>
