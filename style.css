@@ -403,3 +403,34 @@ html, body {
 .footer-socials svg:hover {
   fill: #4dd0e1;
 }
+/* Hero images full width */
+.hero-images {
+  flex: 1;
+  display: flex;
+  justify-content: space-between; /* kéo dãn đều 2 bên */
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 0 40px; /* cách nhẹ 2 bên mép */
+  box-sizing: border-box;
+}
+
+/* Card to hơn */
+.card-3d {
+  flex: 1;
+  max-width: none;
+  height: 240px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px rgba(221, 205, 113, 0.781); /* ánh sáng hắt nhẹ mặc định */
+}
+
+.card-3d:hover {
+  transform: rotateY(10deg) rotateX(5deg); /* xoay nhẹ 3D */
+  box-shadow: 0 0 40px rgba(119, 226, 226, 0.562); /* sáng mạnh hơn khi hover */
+}
+
